@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.title {
+  color: #ff0043;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.title2 {
+  color: black;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+
+  padding-bottom: 61px;
+  padding-top: 61px;
+}
+.info__title {
+  width: 552px;
+  height: 170px;
+  flex-shrink: 0;
+  color: #00194a;
+  font-family: Roboto;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 85px; /* 141.667% */
+}
+.info__text {
+  width: 537px;
+  height: 84px;
+  flex-shrink: 0;
+  color: #00194a;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px; /* 155.556% */
+  margin-bottom: 70px;
+  margin-top: 20px;
+}
+.h {
+  padding: 20px 50px;
+  background: black;
+  color: white;
+  width: 275px;
+  height: 23px;
+  flex-shrink: 0;
+  text-align: center;
+  border-radius: 30px;
+  background: #ff0043;
+  box-shadow: 0px 5px 50px 0px rgba(255, 0, 67, 0.1);
+  color: #fff;
+  font-family: SourceSansPro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.info {
+  display: flex;
+  gap: 62px;
+}
+
+.device__item-image {
+  padding: 36px 0 26px 0;
+}
+.device__item-title {
+  padding: 0 0 15px 0;
+  width: 300px;
+
+  flex-shrink: 0;
+  color: #00194a;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.device__item-text {
+  padding-bottom: 21px;
+  width: 300px;
+  height: 52px;
+  flex-shrink: 0;
+  color: #00194a;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px; /* 162.5% */
+}
+.device__item-bottom {
+  padding-top: 21px;
+  display: flex;
+  gap: 140px;
+}
+.device__item-link {
+  width: 127px;
+  height: 19px;
+  flex-shrink: 0;
+  width: 127px;
+  height: 19px;
+  flex-shrink: 0;
+  opacity: 0.4991;
+}
+.device {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    margin-bottom: 80px;
+}
+.msg {
+    display:flex;
+    gap: 15px;
+    margin-bottom: 100px;
+}
+.msg__right {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.msg__right-title {
+    width: 466px;
+height: 100px;
+flex-shrink: 0;
+color: #00194A;
+font-family: Roboto;
+font-size: 35px;
+font-style: normal;
+font-weight: 500;
+line-height: 50px; /* 142.857% */
+}
+.msg__right-text  {
+    width: 466px;
+height: 196px;
+flex-shrink: 0;
+color: #00194A;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px; /* 155.556% */
+opacity: 0.8;
+}
+.error {
+    display: flex;
+    gap: 130px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 175px;
+}
+.start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    width: 1139px;
+height: 346px;
+flex-shrink: 0;
+border-radius: 25px;
+background: #00194A;
+}
+.start__title {
+    width: 466px;
+height: 50px;
+flex-shrink: 0;
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 35px;
+font-style: normal;
+font-weight: 500;
+line-height: 50px; /* 142.857% */
+}
+.start__text {
+    width: 580px;
+height: 56px;
+flex-shrink: 0;
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px; /* 155.556% */   
+}
+.start__link {
+    padding: 30px 50px;
+    background: black;
+    color: white;
+    width: 275px;
+    height: 23px;
+    flex-shrink: 0;
+    text-align: center;
+    border-radius: 30px;
+    background: #ff0043;
+    box-shadow: 0px 5px 50px 0px rgba(255, 0, 67, 0.1);
+    color: #fff;
+    font-family: SourceSansPro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+.soc {
+    display: flex;
+    gap: 20px;
+}
+.all,.inst,.twitter,.face {
+    color: #00194A;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
